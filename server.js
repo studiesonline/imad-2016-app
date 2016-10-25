@@ -10,7 +10,10 @@ app.get('/', function (req, res) {
 });
 
 
-var articleOne = {
+var articles = {
+    
+
+articleOne : {
     title : 'Article One',
     date : 'Oct 25, 2016',
     content : `<p>
@@ -19,6 +22,27 @@ var articleOne = {
                 <p>
                     Studying online is cool. Brain getting refreshed at the comfort of your home and a hot cuppa of tea!!
                 </p>`
+ },
+
+ articleTwo : {
+     title : 'Article Two',
+     date : 'Oct 25, 2016',
+     content : `<p>
+                    This is content for Article two
+                </p>`
+     
+ },
+                
+ articleThree : {
+      title : 'Article three',
+     date : 'Oct 25, 2016',
+     content : `<p>
+                    This is content for Article three
+                </p>`
+     
+ }
+ 
+
 };
 
 function createTemplate (data) {
@@ -63,11 +87,11 @@ app.get('/article-one', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
- res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+ res.send(createTemplate(articleTwo));
 });
 
 app.get('/article-three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+  res.send(createTemplate(articleThree));
 });
 
 
