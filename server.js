@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 var articles = {
     
 
-'article-one' : {
+ 'article-one' : {
     title : 'Article One',
     heading : 'Article One - Aalia',
     date : 'Oct 25, 2016',
