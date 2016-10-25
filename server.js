@@ -15,6 +15,7 @@ var articles = {
 
 articleOne : {
     title : 'Article One',
+    heading : 'Article One - Aalia',
     date : 'Oct 25, 2016',
     content : `<p>
                     This is article one. Today is a beautiful sunny day :). Lots of smiles and laughter 
@@ -26,6 +27,7 @@ articleOne : {
 
  articleTwo : {
      title : 'Article Two',
+     heading : 'Article Two - Aalia',
      date : 'Oct 25, 2016',
      content : `<p>
                     This is content for Article two
@@ -34,7 +36,8 @@ articleOne : {
  },
                 
  articleThree : {
-      title : 'Article three',
+      title : 'Article three', 
+      heading : 'Article three - Aalia',
      date : 'Oct 25, 2016',
      content : `<p>
                     This is content for Article three
