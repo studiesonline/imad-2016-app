@@ -10,16 +10,16 @@ app.get('/', function (req, res) {
 });
 
 
-var articleOne {
-    title = 'Article One';
-    date = 'Oct 25, 2016';
-    content = `<p>
+var articleOne = {
+    title : 'Article One',
+    date : 'Oct 25, 2016',
+    content : `<p>
                     This is article one. Today is a beautiful sunny day :). Lots of smiles and laughter 
                 </p>
                 <p>
                     Studying online is cool. Brain getting refreshed at the comfort of your home and a hot cuppa of tea!!
                 </p>`
-}
+};
 
 function createTemplate (data) {
     var title = data.title;
