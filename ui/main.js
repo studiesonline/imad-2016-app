@@ -8,5 +8,5 @@ element.innerHTML = 'Hi Welcome to the website' ;
 
 var img = document.getElementById('dragie');
 img.onclick = function () {
-    img.style.marginleft ='100px';
+    img.style.marginleft ='200px';
     };
