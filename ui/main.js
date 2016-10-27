@@ -11,7 +11,7 @@ var img = document.getElementById('dragie');
 var marginLeft =0;
 
 function MoveRight(){
-  marginLeft = marginLeft + 20;
+  marginLeft = marginLeft + 1;
   img.style.marginLeft = marginLeft + 'px';
     
 }
