@@ -7,6 +7,14 @@ element.innerHTML = 'Hi Welcome to the website' ;
 //move the dragon
 
 var img = document.getElementById('dragie');
+
+//function MoveRight(){
+//    marginLeft = marginLeft + 20;
+//    img.style.marginLeft = marginLeft + 'px';
+    
+//}
+
 img.onclick = function () {
-    img.style.marginleft ='200px';
+ //   var interval = setInterval(MoveRight,100);
+    img.style.marginLeft ='200px';
     };
