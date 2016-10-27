@@ -1,5 +1,5 @@
 console.log('Loaded!');
 
-
+//change the main content in loading page 
 var element = document.getElementById("mainText");
-var innerthtml = "Hi Welcome to the website" 
+element.innerhtml = "Hi Welcome to the website" ;
