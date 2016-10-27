@@ -8,13 +8,15 @@ element.innerHTML = 'Hi Welcome to the website' ;
 
 var img = document.getElementById('dragie');
 
-//function MoveRight(){
-//    marginLeft = marginLeft + 20;
-//    img.style.marginLeft = marginLeft + 'px';
+var marginLeft =0;
+
+function MoveRight(){
+  marginLeft = marginLeft + 20;
+  img.style.marginLeft = marginLeft + 'px';
     
-//}
+}
 
 img.onclick = function () {
- //   var interval = setInterval(MoveRight,100);
-    img.style.marginLeft ='200px';
+    var interval = setInterval(MoveRight,50);
+ //   img.style.marginLeft ='200px';
     };
